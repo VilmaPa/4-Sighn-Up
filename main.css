@@ -22,7 +22,14 @@ body * {
                 float: left;
                 width: 40% ;
                 padding: 40px;
+                color: white;
                 background-color: blueviolet;
+                height: 440px;
+                margin-top: 35px ;
+                background-image: url(./kalnai3.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position: center;
             
             }
                 .title {
@@ -32,7 +39,7 @@ body * {
 
                 }
                     .link {
-
+                        color: white;
                     }
                     .amp {
                         
