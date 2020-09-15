@@ -15,27 +15,31 @@ body * {
             width: 800px;
             margin-top: 100px;
             margin-left: calc( ( 100% - 800px) / 2);
-            
+            position: relative;
         }
             .left-column {
                 display: inline-block;
                 float: left;
-                width: 40% ;
+                width: 40%;
                 padding: 40px;
                 color: white;
                 background-color: blueviolet;
-                height: 440px;
-                margin-top: 35px ;
                 background-image: url(./kalnai3.png);
-                background-size:cover;
                 background-repeat: no-repeat;
+                background-size: cover;
                 background-position: center;
-            
+                position: absolute;
+                top: 30px;
+                bottom: 30px;
             }
                 .title {
 
                 }
                 .footer {
+                    position: absolute;
+                    left: 40px;
+                    right: 40px;
+                    bottom: 20px;
 
                 }
                     .link {
@@ -47,12 +51,24 @@ body * {
 
             .right-column {
                 display: inline-block;
-                float: left;
+                float: right;
                 width: 60%;
                 background-color:white;
                 padding: 60px;
+                position: relative;
             }
                 .close {
+                    display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    color: #999;
+                    text-align: center;
+                    font-size: 30px;
+                    line-height: 56px;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
 
                 }
                 .form{
@@ -103,6 +119,7 @@ body * {
                             display: inline-block;
                             line-height: 20px;
                             padding-top: 10px;
+                            text-decoration: none;
                         }
 
                         
