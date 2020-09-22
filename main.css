@@ -91,7 +91,7 @@ body * {
                         width: 100%;
                         margin-bottom: 30px;
                     }
-                    .form-row: :last-of-type {
+                    .form-row:last-of-type {
                         margin-bottom: 0px; 
                     }
                         label{
@@ -118,6 +118,7 @@ body * {
                            padding-right: 50px;
                            border-radius: 20px;
                            line-height: 20px;
+                           cursor: pointer;
                         }
                         .or {
                             display: inline-block;
